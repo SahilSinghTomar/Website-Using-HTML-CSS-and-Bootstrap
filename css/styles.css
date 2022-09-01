@@ -1,0 +1,189 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.img-div {
+  position: relative;
+}
+
+.phone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.features-dog {
+  text-align: center;
+  padding: 5%;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 4.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-para {
+  color: #8f8f8f;
+  width: 70%;
+  margin: 1.5rem auto;
+  padding-bottom: 2rem;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 15px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 10%;
+}
+
+.cta-heading {
+  color: #fff;
+  width: 40%;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin: 0 auto 0;
+  padding-bottom: 3%;
+}
+
+.cta-buttons {
+  margin: 1%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.footer-icon {
+  text-decoration: none;
+  margin: 0.5%;
+  color: black;
+}
+
+.footer-icon:hover{
+  color: grey;
+}
+
+.Copyright-para {
+  color: grey;
+  font-size: 0.7rem;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
